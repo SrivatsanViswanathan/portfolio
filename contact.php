@@ -1,6 +1,6 @@
 <?php
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['firstname']) != '') {
 
  $to = "sriv.viswanathan@gmail.com";
 
@@ -13,14 +13,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
  $email_subject = $subject;
 
 
- $email_body = "From: " . $firstname . " " . $lastname . "\n";
- $email_body .= "Email: " . $email_address . "\n";
- $email_body .= "Message: " . $message . "\n";
+ $email_body = "From: " . $firstname . " " . $lastname;
+ $email_body .= "Email: " . $email_address;
+ $email_body .= "Message: " . $message;
 
- $email_header = "From: " . $email_address . "\r\n";
+ $email_header = "From: " . $email_address;
   
  mail($to, $email_subject, $email_body, $email_header);
-
 }
 
 ?>
