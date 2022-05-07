@@ -107,7 +107,7 @@
     </div>
     <div class="contact-container" id="Contact">
       <h1>Contact Me</h1>
-      <form action="" method="post">
+      <form action="contact.php" method="post">
         <label for="fname">First Name</label>
         <input type="text" id="fname" name="firstname" placeholder="First Name" required> <br>
         <label for="lname">Last Name</label>
