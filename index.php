@@ -10,6 +10,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./styles.css">
 
+
+  <?php include 'contact.php' ?>
+
   <script defer src="./navbar.js"></script>
   <script defer src="./scroll.js"></script>
 
@@ -129,8 +132,5 @@
     &copy Srivatsan Viswanathan 2022
   </footer>
 </body>
-
-<?php include 'contact.php' ?>
-
 
 </html>
