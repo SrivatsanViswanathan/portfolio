@@ -130,4 +130,7 @@
   </footer>
 </body>
 
+<?php include 'contact.php' ?>
+
+
 </html>

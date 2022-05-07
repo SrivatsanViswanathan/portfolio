@@ -1,6 +1,6 @@
 <?php
-if ($_POST["firstname"] != '' && $_POST["lastname"] != '' && $_POST["email"] != '' 
-&& $_POST["subject"] != '' && $_POST["message"] != '') {
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
  $to = "sriv.viswanathan@gmail.com";
 
@@ -18,7 +18,7 @@ if ($_POST["firstname"] != '' && $_POST["lastname"] != '' && $_POST["email"] != 
  $email_body .= "Message: " . $message . "\n";
 
  $email_header = "From: " . $email_address . "\r\n";
-
+  
  mail($to, $email_subject, $email_body, $email_header);
 
 }
