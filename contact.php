@@ -1,6 +1,6 @@
 <?php
 
-$myEmail = "sriv.viswanathan@gmail.com";
+$to = "sriv.viswanathan@gmail.com";
 
 $firstname = $_POST["firstname"];
 $lastname = $_POST["lastname"];
@@ -10,14 +10,10 @@ $message = $_POST["message"];
 
 $email_subject = $subject;
 
-$email_body = "Details of Email: \n Name: $firstname"." "."$lastname\n"."Email Address: $email_address \n
-Message: $message";
+$email_body = "From: ".$firstname." ".$lastname."\r\n";
+$email_body .= "Email: ".$email_address."\r\n";
+$email_body .= "Message: ".$message."\r\n";
 
-$email_from = "From: $email_address"."\r\n";
-$email_from .= "Reply-To: $email_address"."\r\n";
-$email_from .= "Content-type: text/html; charset=iso-8859-1\r\n";
-
-mail($myEmail, $email_subject, $email_body, $email_from);
-
+mail($to, $email_subject, $email_body);
 
 ?>
