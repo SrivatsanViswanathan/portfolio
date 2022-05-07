@@ -20,6 +20,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['firstname']) != '') {
  $email_header = "From: " . $email_address;
   
  mail($to, $email_subject, $email_body, $email_header);
+
+ if (mail($to, $email_subject, $email_body, $email_header)) {
+  echo "Message accepted";
+ } else {
+  echo "Error: Message not accepted";
+ }
 }
 
 ?>
