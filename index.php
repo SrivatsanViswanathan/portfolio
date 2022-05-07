@@ -51,7 +51,7 @@
             <td>Frameworks: Bootstrap</td>
           </tr>
           <tr>
-            <td>Databases: SQL</td>
+            <td>Databases: SQL, MYSQL</td>
           </tr>
           <tr>
             <td>Tools: Git, Bash, Unix</td>
