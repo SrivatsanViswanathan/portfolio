@@ -10,9 +10,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./styles.css">
 
-
-  <?php include 'contact.php' ?>
-
   <script defer src="./navbar.js"></script>
   <script defer src="./scroll.js"></script>
 
@@ -107,7 +104,7 @@
     </div>
     <div class="contact-container" id="Contact">
       <h1>Contact Me</h1>
-      <form action="contact.php" method="post">
+      <form class="contact-form" action="contact.php" method="post">
         <label for="fname">First Name</label>
         <input type="text" id="fname" name="firstname" placeholder="First Name" required> <br>
         <label for="lname">Last Name</label>

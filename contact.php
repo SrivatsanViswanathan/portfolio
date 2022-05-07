@@ -1,8 +1,8 @@
 <?php
 
-if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['firstname']) != '') {
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["firstname"]) != '') {
 
- $to = "sriv.viswanathan@gmail.com";
+ $email_to = "sriv.viswanathan@gmail.com";
 
  $firstname = $_POST["firstname"];
  $lastname = $_POST["lastname"];
@@ -12,16 +12,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['firstname']) != '') {
 
  $email_subject = $subject;
 
-
  $email_body = "From: " . $firstname . " " . $lastname;
  $email_body .= "Email: " . $email_address;
  $email_body .= "Message: " . $message;
 
- $email_header = "From: " . $email_address;
+ $email_from = "From: " . $email_address;
   
- mail($to, $email_subject, $email_body, $email_header);
+ mail($email_to, $email_subject, $email_body, $email_from);
 
- if (mail($to, $email_subject, $email_body, $email_header)) {
+ if (mail($email_to, $email_subject, $email_body, $email_from)) {
   echo "Message accepted";
  } else {
   echo "Error: Message not accepted";
