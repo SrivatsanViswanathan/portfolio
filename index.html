@@ -12,6 +12,8 @@
 
   <script defer src="./navbar.js"></script>
   <script defer src="./scroll.js"></script>
+  <script defer src="https://smtpjs.com/v3/smtp.js"></script>
+  <script defer src="./contact.js"></script>
 
   <title>Home</title>
 </head>
@@ -79,43 +81,45 @@
             <img src="./images/landing-page.JPG" alt="Landing Page">
           </a>
           <p>A webpage that contains some information on why you should enroll in a free online course.
-            Built using HTML, CSS, and Javascript.
           </p>
+          <p>Softwares Used: HTML, CSS, Javascript</p>
         </div>
         <div class="project2">
           <a href="https://multipolar-marauder.github.io/website/" target="_blank">
             <img src="./images/debate-website.JPG" alt="Debate Website">
           </a>
           <p>A debate website for a McMaster politics club. Contains the vote results done by the members
-            in the club and the blogs journalists have written. Built using HTML, CSS, and Javascript. The
-            bootstrap framework was used as well.
+            in the club and the blogs journalists have written.
           </p>
+          <p>Softwares Used: HTML, CSS, Javascript, Bootstrap</p>
         </div>
         <div class="project3">
           <a href="https://srivatsanviswanathan.github.io/testing/" target="_blank">
             <img src="./images/university-website.JPG" alt="University Website">
           </a>
           <p>A website built for a University course. Contains all the information a student would
-            need when attending the course. JSON was used as a database to store all the information
-            and Javascript DOM was used to display it.
+            need when attending the coursee.
           </p>
+          <p>Softwares Used: HTML, CSS, Javascript, JSON</p>
         </div>
       </div>
     </div>
     <div class="contact-container" id="Contact">
       <h1>Contact Me</h1>
-      <form class="contact-form" action="contact.php" method="post">
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="First Name" required> <br>
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Last name" required><br>
+      <form onsubmit="sendEmail(); reset(); return false;">
+        <label for="firstname">First Name</label>
+        <input type="text" id="firstname" name="firstname" placeholder="First Name" required> <br>
+        <label for="lastname">Last Name</label>
+        <input type="text" id="lastname" name="lastname" placeholder="Last name" required><br>
         <label for="email">Email</label>
         <input type="email" id="email" name="email" placeholder="Email" required><br>
-        <label for="email">Subject</label>
+        <label for="subject">Subject</label>
         <input type="text" id="subject" name="subject" placeholder="Subject" required><br>
         <label for="message">Message</label><br>
         <textarea id="message" name="message" rows="7" cols="50" placeholder="Message" required></textarea><br>
-        <input type="submit">
+        <input type="hidden" name="_template" value="table"><br>
+        <input type="text" name="_honey" style="display:none">
+        <input type="submit" value="Submit">
       </form>
     </div>
     <div class="arrow-move2">

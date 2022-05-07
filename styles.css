@@ -23,6 +23,8 @@ body {
  background-color: #333;
  overflow: hidden;
  justify-content: space-between;
+ min-height: 50px;
+ align-items: center;
 }
 
 .navbar a {
@@ -31,7 +33,7 @@ body {
  text-align: center;
  padding: 14px 16px;
  text-decoration: none;
- font-size: 17px;
+ font-size: 25px;
 }
 
 .navbar .right {
@@ -88,10 +90,10 @@ body {
  margin: 0;
  padding-left: 5%;
  padding-right: 5%; 
- padding-top: 7%;
- padding-bottom: 7%;
- background-color:lightgray;
- color: black;
+ padding-top: 4%;
+ padding-bottom: 4%;
+ background-color:#333;
+ color: white;
 }
 
 .about-container .left {
@@ -128,7 +130,7 @@ body {
  margin-top: 1%;
  text-align: center;
  text-decoration: none;
- color: blue;;
+ color: lightblue;
  font-size: 25px;
  font-weight: bold;
 }
@@ -152,7 +154,7 @@ body {
 /*Arrow Start */
 
 .arrow {
- border: solid black;
+ border: solid lightblue;
  border-width: 0 3px 3px 0;
  display: inline-block;
  padding: 1.5%;
@@ -176,7 +178,7 @@ body {
 .arrow-move {
  text-align: center;
  height: 65px;
- background-color: lightgray;
+ background-color: #333;
 }
 
 /*Arrow End */
@@ -191,7 +193,7 @@ body {
  padding-left: 5%;
  padding-right: 5%;
  min-height: 420px;
- background-color:forestgreen;
+ background-color:white;
  color: black;
 }
 
@@ -205,19 +207,22 @@ body {
  display: flex;
  flex-wrap: wrap;
  justify-content: space-between;
- margin-bottom: 2%;
+ margin-bottom: 1.5%;
 }
 
 .project1, .project2, .project3 {
  margin-right: 0.75%;
  margin-left: 0.75%;
+ margin-bottom: 25px;
  font-size: 18px;
  flex: 30%;
  text-align: center;
- height: 30%;
+ height: auto;
+ box-shadow: 5px 5px 20px gray;
 }
 
 .project-container img {
+ margin-bottom: 2.5%;
  width: 100%;
  height: auto;
 }

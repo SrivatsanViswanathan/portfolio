@@ -14,7 +14,6 @@ function arrow_scroll() {
 const arrow1 = document.getElementById("arrow");
 
 document.addEventListener('scroll', () => {
- console.log(window.scrollY);
  if (window.scrollY < 1) {
   arrow1.className = "arrow down";
  }
