@@ -130,7 +130,7 @@ body {
  margin-top: 1%;
  text-align: center;
  text-decoration: none;
- color: lightblue;
+ color: forestgreen;
  font-size: 25px;
  font-weight: bold;
 }
@@ -154,7 +154,7 @@ body {
 /*Arrow Start */
 
 .arrow {
- border: solid lightblue;
+ border: solid forestgreen;
  border-width: 0 3px 3px 0;
  display: inline-block;
  padding: 1.5%;
