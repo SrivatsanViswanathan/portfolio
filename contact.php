@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["firstname"]) != '') {
  $email_body .= "Email: " . $email_address;
  $email_body .= "Message: " . $message;
 
- $email_from = "From: " . $email_address;
+ $email_from = "From: " . $email_to;
   
  mail($email_to, $email_subject, $email_body, $email_from);
 
