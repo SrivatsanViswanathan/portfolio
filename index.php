@@ -60,7 +60,7 @@
           </tr>
         </table>
         </p>
-        <a href="./files/Resume.pdf" target="_blank">Resume</a>
+        <a href="./files//Resume.pdf" target="_blank">Resume</a>
       </div>
       <div class="middle"></div>
       <div class="right">
