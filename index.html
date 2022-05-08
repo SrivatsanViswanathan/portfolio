@@ -106,20 +106,22 @@
     </div>
     <div class="contact-container" id="Contact">
       <h1>Contact Me</h1>
-      <form onsubmit="sendEmail(); reset(); return false;">
-        <label for="firstname">First Name</label>
-        <input type="text" id="firstname" name="firstname" placeholder="First Name" required> <br>
-        <label for="lastname">Last Name</label>
-        <input type="text" id="lastname" name="lastname" placeholder="Last name" required><br>
-        <label for="email">Email</label>
+      <form class="contact-form" id="contact-form" onsubmit="validate(); return false;">
+        <label for="firstname">First Name</label><br>
+        <input type="text" id="firstname" name="firstname" placeholder="First Name" required>
+        <div class="errorMessage1"></div><br>
+        <label for="lastname">Last Name</label><br>
+        <input type="text" id="lastname" name="lastname" placeholder="Last name" required>
+        <p class="errorMessage2"></p><br>
+        <label for="email">Email</label><br>
         <input type="email" id="email" name="email" placeholder="Email" required><br>
-        <label for="subject">Subject</label>
+        <label for="subject">Subject</label><br>
         <input type="text" id="subject" name="subject" placeholder="Subject" required><br>
         <label for="message">Message</label><br>
         <textarea id="message" name="message" rows="7" cols="50" placeholder="Message" required></textarea><br>
         <input type="text" name="_honey" style="display:none"><br>
         <div id="confirm"></div>
-        <input type="submit" value="Submit">
+        <input type="submit">
       </form>
     </div>
     <div class="arrow-move2">
