@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="shortcut icon" type="image/png" href="./favicon/favicon.png" />
+  <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./styles.css">
 
@@ -46,13 +46,13 @@
         <table>
           <tr>
             <td>
-              Languages: HTML, CSS, Javascript, JSON, PHP, Python, Java, C, LaTeX, Matlab
+              Languages: Javascript, Python, HTML5, CSS3, Java, PHP, C, LaTeX, Matlab
             </td>
           <tr>
-            <td>Frameworks: Bootstrap</td>
+            <td>Frameworks: Node.js, Bootstrap</td>
           </tr>
           <tr>
-            <td>Databases: SQL, MYSQL</td>
+            <td>Databases: SQL</td>
           </tr>
           <tr>
             <td>Tools: Git, Bash, Unix</td>
@@ -60,7 +60,7 @@
           </tr>
         </table>
         </p>
-        <a href="#">Resume</a>
+        <a href="./files/Resume.pdf" target="_blank">Resume</a>
       </div>
       <div class="middle"></div>
       <div class="right">
@@ -100,7 +100,7 @@
           <p>A website built for a University course. Contains all the information a student would
             need when attending the course.
           </p>
-          <p>Softwares Used: HTML, CSS, Javascript, JSON</p>
+          <p>Softwares Used: HTML, CSS, Javascript</p>
         </div>
       </div>
     </div>
