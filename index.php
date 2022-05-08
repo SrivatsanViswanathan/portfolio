@@ -64,7 +64,7 @@
       </div>
       <div class="middle"></div>
       <div class="right">
-        <img src="./images/lelouch.jpg" alt="Lelouch">
+        <img src="./images/me.png" alt="Srivatsan Viswanathan">
       </div>
     </div>
     <div class="arrow-move">
