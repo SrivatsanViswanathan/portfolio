@@ -17,4 +17,17 @@ function sendEmail() {
    message: message
   })
  })
+
+ confirmation();
+}
+
+function confirmation() {
+ const confirm = document.getElementById("confirm");
+ confirm.textContent = "Email has been sent. Thank you.";
+ confirm.setAttribute("class", "confirm");
+
+ setTimeout(function () {
+  confirm.classList.add("confirm-end");
+ }, 14900);
+
 }

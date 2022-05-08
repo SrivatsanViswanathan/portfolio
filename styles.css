@@ -280,6 +280,83 @@ input[type=submit]:hover {
   background-color: black;
 }
 
+.confirm-end {
+  display: none;
+}
+
+.confirm {
+  padding-right: 1.5%;
+  padding-left: 1.5%;
+  padding-top:0.25%;
+  padding-bottom: 0.25%;
+  margin-top: -7.5%;
+  margin-bottom: 2.5%;
+  text-align: center;
+  align-items: center;
+  color: forestgreen;
+  animation: fadeOut;
+  animation: fadeOut;
+  -webkit-animation: fadeOut;
+  -moz-animation: fadeOut;
+  -o-animation: fadeOut;
+  -ms-animation: fadeOut;
+  animation-duration: 15s;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
+
+@-moz-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
+
+@-o-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
+
+@-ms-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
 /* Contact End */
 
 /*Arrow Start */
