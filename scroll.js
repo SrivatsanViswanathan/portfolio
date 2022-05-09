@@ -14,10 +14,23 @@ function arrow_scroll() {
 const arrow1 = document.getElementById("arrow");
 
 document.addEventListener('scroll', () => {
- if (window.scrollY < 1) {
-  arrow1.className = "arrow down";
+ var x = window.matchMedia("(max-width: 700px)")
+ if (x.matches) {
+  if (window.scrollY < 200) {
+   arrow1.className = "arrow down";
+  }
+  if (window.scrollY > 1100) {
+   arrow1.className
+    = "arrow up";
+  }
  }
- if (window.scrollY > 620) {
-  arrow1.className = "arrow up";
+ else {
+  if (window.scrollY < 1) {
+   arrow1.className = "arrow down";
+  }
+  if (window.scrollY > 620) {
+   arrow1.className
+    = "arrow up";
+  }
  }
 });
