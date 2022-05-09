@@ -40,7 +40,7 @@
         <h1>Srivatsan Viswanathan</h1>
         <p>Hi, my name is Sri. I am a 5th year computer engineering student at Toronto Metropolitan
           University. I have developed websites from scratch and I focus on developing scalable and reusable
-          code. I enjoy working collaborately and independantly. I am an aspiring full stack developer.
+          code. I enjoy working collaborately and independently. I am an aspiring full stack developer.
         </p>
         <p>
         <table>
