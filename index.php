@@ -46,7 +46,7 @@
         <table>
           <tr>
             <td>
-              Languages: Javascript, Python, HTML5, CSS3, Java, PHP, C, LaTeX, Matlab
+              Languages: Javascript, Python, HTML5, CSS3, PHP, Java, C, LaTeX, Matlab
             </td>
           <tr>
             <td>Frameworks: Node.js, Bootstrap</td>
@@ -60,7 +60,7 @@
           </tr>
         </table>
         </p>
-        <a href="./files/Resume.pdf" target="_blank">Resume</a>
+        <a href="./files/Resume.pdf" target="_blank"><button class="resume">Resume</button></a>
       </div>
       <div class="middle"></div>
       <div class="right">
@@ -82,25 +82,25 @@
           </a>
           <p>A single webpage that contains some information on why you should enroll in a free online course.
           </p>
-          <p>Softwares Used: HTML, CSS, Javascript</p>
+          <p>Softwares Used: HTML5, CSS3, Javascript</p>
         </div>
         <div class="project2">
           <a href="https://multipolar-marauder.github.io/website/" target="_blank">
             <img src="./images/debate-website.JPG" alt="Debate Website">
           </a>
-          <p>A debate website for a McMaster politics club. Contains the vote results done by the members
+          <p>A website for a McMaster politics club. Contains the vote results done by the members
             in the club and the blogs journalists have written.
           </p>
-          <p>Softwares Used: HTML, CSS, Javascript, Bootstrap</p>
+          <p>Softwares Used: HTML5, CSS3, Javascript, Bootstrap</p>
         </div>
         <div class="project3">
           <a href="https://srivatsanviswanathan.github.io/testing/" target="_blank">
             <img src="./images/university-website.JPG" alt="University Website">
           </a>
-          <p>A website built for a University course. Contains all the information a student would
+          <p>A website for a University course. Contains all the information a student would
             need when attending the course.
           </p>
-          <p>Softwares Used: HTML, CSS, Javascript</p>
+          <p>Softwares Used: HTML5, CSS3, Javascript</p>
         </div>
       </div>
     </div>

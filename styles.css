@@ -30,13 +30,25 @@ body {
  display: flex;
  color: #f2f2f2;
  text-align: center;
- padding: 14px 16px;
+ padding: 10px 22px;
  text-decoration: none;
- font-size: 25px;
+ font-size: 18px;
+ transition-duration: 0.7s;
+ margin: 5px 0px 5px 0px;
+}
+
+.navbar .right a:hover {
+  background-color:rgb(80, 80, 80);
 }
 
 .navbar .right {
  display: flex;
+ margin-right: 0.5%;
+}
+
+.navbar .right a {
+  padding-right: 25px;
+  padding-left: 25px;
 }
 
 .navbar .icon {
@@ -129,9 +141,22 @@ body {
  margin-top: 1%;
  text-align: center;
  text-decoration: none;
- color: forestgreen;
- font-size: 25px;
- font-weight: bold;
+}
+
+.resume {
+  font-size: 18px;
+  padding: 8px 23px;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+  border: 1px solid white;
+  margin: 0 0 15px 0;
+}
+
+.resume:hover {
+  background-color: navy;
 }
 
 .about-container img {
@@ -156,7 +181,7 @@ body {
  border: solid forestgreen;
  border-width: 0 3px 3px 0;
  display: inline-block;
- padding: 1.5%;
+ padding: 20px;
  text-align: center;
 }
 
@@ -176,7 +201,8 @@ body {
 
 .arrow-move {
  text-align: center;
- height: 65px;
+ justify-content: center;
+ height: 75px;
  background-color: #333;
 }
 
@@ -266,7 +292,7 @@ input[type=submit] {
   display: flex;
   margin: auto;
   text-align: center;
-  background-color: blue;
+  background-color: navy;
   color: white;
   padding: 12px 26px;
   border: none;
@@ -284,10 +310,7 @@ input[type=submit]:hover {
 }
 
 .confirm {
-  padding-right: 1.5%;
-  padding-left: 1.5%;
-  padding-top:0.25%;
-  padding-bottom: 0.25%;
+  padding: 0.25% 1.5% 0.25% 1.5%;
   margin-top: -7.5%;
   margin-bottom: 2.5%;
   text-align: center;
@@ -372,7 +395,7 @@ input[type=submit]:hover {
   border: solid black;
   border-width: 0 3px 3px 0;
   display: inline-block;
-  padding: 1.5%;
+  padding: 25px;
   text-align: center;
 }
 
@@ -391,10 +414,10 @@ input[type=submit]:hover {
 }
 
 .arrow-move2 {
-  padding-top: 1.7%;
+  padding-top: 25px;
   text-align: center;
   align-items: center;
-  height: 43px;
+  height: 50px;
   justify-content: center;
   background-color: lightsteelblue;
 }
