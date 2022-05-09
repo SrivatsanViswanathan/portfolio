@@ -82,7 +82,7 @@
           </a>
           <p>A single webpage that contains some information on why you should enroll in a free online course.
           </p>
-          <p>Softwares Used: HTML5, CSS3, Javascript</p>
+          <p>Softwares Used: HTML5, CSS3</p>
         </div>
         <div class="project2">
           <a href="https://multipolar-marauder.github.io/website/" target="_blank">
