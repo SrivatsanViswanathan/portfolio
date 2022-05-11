@@ -102,6 +102,14 @@
           </p>
           <p>Softwares Used: HTML5, CSS3, Javascript</p>
         </div>
+        <div class="project4">
+          <a href="https://srivatsanviswanathan.github.io/rock-paper-scissors/" target="_blank">
+            <img src="./images/rock-paper-scissors.JPG" alt="Rock-Paper-Scissors">
+          </a>
+          <p>A rock-paper-scissors game a user can play against a computer.
+          </p>
+          <p>Softwares Used: HTML5, CSS3, Javascript</p>
+        </div>
       </div>
     </div>
     <div class="contact-container" id="Contact">
