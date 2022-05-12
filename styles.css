@@ -232,6 +232,7 @@ body {
  display: flex;
  flex-wrap: wrap;
  margin-bottom: 1.5%;
+ justify-content: space-around;
 }
 
 .project {
@@ -242,10 +243,10 @@ body {
  flex-wrap: wrap;
  flex: 30%;
  text-align: center;
+ justify-content:space-around;
  height: auto;
  box-shadow: 5px 5px 20px gray;
 }
-
 .project.unfinished {
   visibility: hidden;
   margin-bottom: 0px;
@@ -255,6 +256,29 @@ body {
  margin-bottom: 2.5%;
  width: 100%;
  height: auto;
+}
+
+.project .project-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.project a {
+  color: white;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: black;
+  text-decoration: none;
+  width: 20%;
+  padding: 0.5%;
+  height: auto;
+  transition-duration: 0.5s;
+  margin-bottom: 3%;
+}
+
+.project a:hover {
+  background-color: navy;
 }
 
 /* Project End */
