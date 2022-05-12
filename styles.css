@@ -236,8 +236,8 @@ body {
 }
 
 .project {
- margin-right: 0.75%;
- margin-left: 0.75%;
+ margin-right: 1%;
+ margin-left: 1%;
  margin-bottom: 25px;
  font-size: 18px;
  flex-wrap: wrap;
@@ -246,16 +246,29 @@ body {
  justify-content:space-around;
  height: auto;
  box-shadow: 5px 5px 20px gray;
+ transition: transform;
+ transition-duration: 0.5s;
 }
+
+.project:hover {
+  transform: scale(1.05);
+}
+
 .project.unfinished {
   visibility: hidden;
   margin-bottom: 0px;
 }
 
 .project-container img {
- margin-bottom: 2.5%;
+ margin-bottom: 2%;
  width: 100%;
  height: auto;
+}
+
+.project-body {
+  width: 100%;
+  min-height: 110px;
+  max-height: 200px;
 }
 
 .project .project-links {
