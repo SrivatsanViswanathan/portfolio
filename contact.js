@@ -49,7 +49,7 @@ function sendEmail() {
   const subject = document.getElementById("subject").value;
   const message = document.getElementById("message").value;
 
-  fetch("https://formsubmit.co/92a64e78aa951ec6fa59c2d6643994f5", {
+  fetch("https://formsubmit.co/ajax/92a64e78aa951ec6fa59c2d6643994f5", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
