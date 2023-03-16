@@ -49,7 +49,7 @@ function sendEmail() {
   const subject = document.getElementById("subject").value;
   const message = document.getElementById("message").value;
 
-  fetch("https://formsubmit.co/sriv.viswanathan@gmail.com", {
+  fetch("https://formsubmit.co/5c593b081c27f6f905dae6e9b448a925", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
